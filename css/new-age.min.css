@@ -187,10 +187,12 @@ header {
 	width: 100%;
 	min-height: auto;
 	overflow-y: hidden;
-	background: url(../img/bg-pattern.png), #7b4397;
-	background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #029aa8);
-	background: url(../img/bg-pattern.png), linear-gradient(to left, #7b4397, #029aa8);
-	color: #fff
+	background: url('../img/pexels-photo.jpg'), #7b4397;
+	background: url('../img/pexels-photo.jpg'), -webkit-linear-gradient(to left, #7b4397, #029aa8);
+	background: url('../img/pexels-photo.jpg'), linear-gradient(to left, #7b4397, #029aa8);
+	color: #fff;
+	background-size: cover;
+    background-position: center;
 }
 
 header .header-content {
